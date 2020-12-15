@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useWebAnimations from "@wellyshen/use-web-animations";
-import image from '../src/images/My-Work.png'
-import image2 from '../src/images/My-Work-Shadow.png'
+import MyWork from '../src/images/My-Work.png'
+import MyWork2 from '../src/images/My-Work-Shadow.png'
 
 const Home = () => {
 
@@ -59,8 +59,8 @@ const Home = () => {
                                 </section>
                                 
                                 <section className="col-lg-6 pt-lg-4 order-1 order-lg-2 header-img">
-                                    <img className="img-fluid animated" src={image} ref={upImgMove.ref} alt="Shadow Image" />
-                                    <img className="img-fluid animated" src={image2} ref={downImgMove.ref} alt="Shadow Image" />
+                                    <img className="img-fluid animated" src={MyWork} ref={upImgMove.ref} alt="Shadow Image" />
+                                    <img className="img-fluid animated" src={MyWork2} ref={downImgMove.ref} alt="Shadow Image" />
                                 </section>
                             </section>
                         </section>

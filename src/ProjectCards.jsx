@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 const ProjectCards = (props) => {
@@ -29,7 +28,7 @@ const ProjectCards = (props) => {
         <>
             <section className="col-md-4 col-10 mx-auto">
                 <div id="cardanim" className="card" ref={upCardMove.ref}>
-                    <a href="https://upshotfirm.com/portfolio/" target="_blank" className="proj-links">
+                    <a href="https://upshotfirm.com/portfolio/" rel="noreferrer" target="_blank" className="proj-links">
                         <img src={props.imgTitle} className="card-img-top" alt={props.imgTitle} />
                         <div className="card-body">
                             <h5 className="card-title card-title font-weight-bold proj-link">{props.compName}</h5>

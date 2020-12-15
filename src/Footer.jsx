@@ -1,6 +1,4 @@
 import React from 'react';
-// import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import image from './images/projects/proj-nts.jpg'
 
 const Footer = () => {
     return (
