@@ -59,8 +59,8 @@ const Home = () => {
                                 </section>
                                 
                                 <section className="col-lg-6 pt-lg-4 order-1 order-lg-2 header-img">
-                                    <img className="img-fluid animated" src={MyWork} ref={upImgMove.ref} alt="Shadow Image" />
-                                    <img className="img-fluid animated" src={MyWork2} ref={downImgMove.ref} alt="Shadow Image" />
+                                    <img className="img-fluid animated" src={MyWork} ref={upImgMove.ref} alt="My Work" />
+                                    <img className="img-fluid animated" src={MyWork2} ref={downImgMove.ref} alt="My Work" />
                                 </section>
                             </section>
                         </section>
